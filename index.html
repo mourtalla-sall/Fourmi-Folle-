@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fourmi-Folle</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="main.ts">
+    <!-- Le navigateur ne lit pas le .ts : il lit le main.js créé par "tsc" -->
+    <script src="main.js" defer></script>
 </head>
 <body>
     <h1>Fourmi-Folle</h1>
+
+    <!-- Le "tableau" où on dessine la grille -->
+    <canvas id="grille"></canvas>
+
+    <div class="boutons">
+        <button id="bouton-pause">Pause</button>
+        <button id="bouton-reset">Recommencer</button>
+    </div>
 </body>
 </html>
