@@ -24,4 +24,4 @@ Après chaque modification de `main.ts`, recompile avec la même commande.
 - `styles.css` : le style
 - `main.ts` : le code du jeu
 - `main.js` : créé par la compilation
-lien du site :  https://mourtalla-sall.github.io/Fourmi-Folle-/
+-  lien du site :  https://mourtalla-sall.github.io/Fourmi-Folle-/
